@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MQStarMat
+  m_Shader: {fileID: 4800000, guid: 2fd5fa47540b06240a2ae912f53ee357, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AShapeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltTexA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AltTexB:
+        m_Texture: {fileID: 2800000, guid: f588d850485d0ae479d73cf3bd0b7b00, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DispTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex0:
+        m_Texture: {fileID: 2800000, guid: fd521575bf8170e49a04be69f8491529, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex1:
+        m_Texture: {fileID: 2800000, guid: d50f56892eed0124a97bbe297ef4713c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex10:
+        m_Texture: {fileID: 2800000, guid: 8547fd8b4924b4847ae0977d1131b0f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex11:
+        m_Texture: {fileID: 2800000, guid: 01d8053e58fd7254182512948a1d2df6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex12:
+        m_Texture: {fileID: 2800000, guid: d685dc1a9793d6247bf3ae855d517e39, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex13:
+        m_Texture: {fileID: 2800000, guid: b155c386e92ab7e4389d4222e3c78808, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex14:
+        m_Texture: {fileID: 2800000, guid: 8897f52f5c1e8cf43a6965c09555abe5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex15:
+        m_Texture: {fileID: 2800000, guid: fcc764d0fdaebef4a979176e802b1653, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex2:
+        m_Texture: {fileID: 2800000, guid: 0e7b357dc2aaf284f893ec5df7ea85a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex3:
+        m_Texture: {fileID: 2800000, guid: 2934e98b471aa7744ad0a46498740a9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex4:
+        m_Texture: {fileID: 2800000, guid: baef91d5757fdc14da6c24c5921c6474, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex5:
+        m_Texture: {fileID: 2800000, guid: 9266e0d346ee27a46aa2fa2e1fcee4fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex6:
+        m_Texture: {fileID: 2800000, guid: 63acdd6f474868f4cbedc410b8387c0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex7:
+        m_Texture: {fileID: 2800000, guid: 1139a6d9d62d4b64c88941ab25774f25, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex8:
+        m_Texture: {fileID: 2800000, guid: e5110e815a677c74f81e10739a218662, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IcosaTex9:
+        m_Texture: {fileID: 2800000, guid: 2c602b8c8690a1741b668cc700124cfa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ImprintTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LitTex:
+        m_Texture: {fileID: 2800000, guid: 616519d6531cad84cbd01281cc9742e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RenderTex:
+        m_Texture: {fileID: 8600000, guid: b7bff60b4f3cfc14783e110f5830c8c7, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShapeTex:
+        m_Texture: {fileID: 2800000, guid: 5a1520c35abeb5e4882aab5999755ef1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriIn:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Displacement: 0.3
+    - _DstBlend: 10
+    - _GlossMapScale: 1
+    - _Glossiness: 0.337
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _Mode: 2
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 0
+    - _SrcBlend: 5
+    - _Tess: 4
+    - _UVSec: 0
+    - _ZWrite: 0
+    - _cPositionX: 0
+    - _cPositionY: 0
+    - _clothHeight: 0
+    - _controllerHeld: 0
+    - _controllerHeldCDTimer: 0
+    - _controllerHeldCDTimerB: 0
+    - _controllerHeldCDTimerC: 0
+    - _controllerHeldCDTimerD: 0
+    - _pPositionX: 0
+    - _pPositionY: 0
+    - _paramCutoff: 0.8
+    - _sSlider: 0
+    - _wavIntensity: 0
+    - _wavIntensityA: 0
+    - _wavIntensityB: 0
+    - _wavIntensityC: 0
+    - _wavIntensityD: 0
+    - _wavIntensityE: 0
+    - _wavIntensityF: 0
+    - _wavIntensityG: 0
+    - _wavIntensityH: 0
+    - _wavParam0: 0
+    - _wavParam1: 0
+    - _wavParam2: 0
+    - _wavParam3: 0
+    - _wavParam4: 0
+    - _wavParam5: 0
+    - _wavParam6: 0
+    - _wavParam7: 0
+    - _wavRadA: 0
+    - _wavRadB: 0
+    - _wavRadC: 0
+    - _wavRadD: 0
+    - _wavRadE: 0
+    - _wavRadF: 0
+    - _wavRadG: 0
+    - _wavRadH: 0
+    - _wavRadius: 0
+    - _wavRadiusB: 0
+    - _wavRadiusC: 0
+    - _wavStickTimeMod: 1e-18
+    - _wavStickTimePower: 10
+    - _wavStickTimeRange: 1e-12
+    m_Colors:
+    - _BotColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 0.44852924, b: 0.98478717, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 0}
+    - _baseColorSatMinRange: {r: 0.625, g: 0.375, b: 0, a: 1}
+    - _baseColorValMinRange: {r: 0.35, g: 0.2, b: 0, a: 1}
+    - _baseSizeMinRange: {r: 1, g: -6, b: 0, a: 1}
+    - _bodyPos0: {r: 0, g: 0, b: 0, a: 1}
+    - _bodyPos1: {r: 0, g: 0, b: 0, a: 1}
+    - _bodyPos2: {r: 0, g: 0, b: 0, a: 1}
+    - _bodyPos3: {r: 0, g: 0, b: 0, a: 1}
+    - _bodyPos4: {r: 0, g: 0, b: 0, a: 1}
+    - _bodyPos5: {r: 0, g: 0, b: 0, a: 1}
+    - _controllerPos: {r: 0, g: 0, b: 0, a: 1}
+    - _extensionOscFreqMinRange: {r: 1.5, g: 1.5, b: 0, a: 1}
+    - _extensionOscRangeMinRange: {r: 1, g: 1, b: 0, a: 1}
+    - _extensionScalarMinRange: {r: 1, g: 1, b: 0, a: 1}
+    - _lControllerPos: {r: 0, g: 0, b: 0, a: 0}
+    - _lControllerPosB: {r: 0, g: 0, b: 0, a: 0}
+    - _lControllerPosC: {r: 0, g: 0, b: 0, a: 0}
+    - _lControllerPosD: {r: 0, g: 0, b: 0, a: 0}
+    - _obscurePos0: {r: 0, g: 0, b: 0, a: 1}
+    - _obscurePos1: {r: 0, g: 0, b: 0, a: 1}
+    - _obscurePos2: {r: 0, g: 0, b: 0, a: 1}
+    - _obscurePos3: {r: 0, g: 0, b: 0, a: 1}
+    - _obscurePos4: {r: 0, g: 0, b: 0, a: 1}
+    - _obscurePos5: {r: 0, g: 0, b: 0, a: 1}
+    - _obscurePos6: {r: 0, g: 0, b: 0, a: 1}
+    - _obscurePos7: {r: 0, g: 0, b: 0, a: 1}
+    - _oscSizeFreqMinRange: {r: 2.5, g: 2, b: 0, a: 1}
+    - _oscSizeMinRange: {r: 1.5, g: 1.5, b: 0, a: 1}
+    - _paramColorMod0: {r: 1, g: 1, b: 1, a: 1}
+    - _paramColorMod1: {r: 0, g: 1, b: 1, a: 1}
+    - _paramColorMod2: {r: 1, g: 0, b: 1, a: 1}
+    - _paramColorMod3: {r: 1, g: 1, b: 0, a: 1}
+    - _rotSpeedMinRange: {r: 1, g: 1, b: 0, a: 1}
+    - _vertBounds: {r: 0, g: 0, b: 0, a: 0}
+    - _wavPosA: {r: 0, g: 0, b: 0, a: 0}
+    - _wavPosB: {r: 0, g: 0, b: 0, a: 1}
+    - _wavPosC: {r: 0, g: 0, b: 0, a: 1}
+    - _wavPosD: {r: 0, g: 0, b: 0, a: 1}
+    - _wavPosE: {r: 0, g: 0, b: 0, a: 1}
+    - _wavPosF: {r: 0, g: 0, b: 0, a: 1}
+    - _wavPosG: {r: 0, g: 0, b: 0, a: 1}
+    - _wavPosH: {r: 0, g: 0, b: 0, a: 1}

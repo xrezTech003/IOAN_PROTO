@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9e129cd36f93748a2175f9e3f790e7, type: 3}
+  m_Name: FCBD3F4F-F692-4360-9734-1D39F7B4BF35
+  m_EditorClassIdentifier: 
+  objectName: pianoBounceTap
+  id: 2787188051
+  guid: FCBD3F4F-F692-4360-9734-1D39F7B4BF35

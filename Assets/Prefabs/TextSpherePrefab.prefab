@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1570348880305220}
+  m_IsPrefabParent: 1
+--- !u!1 &1570348880305220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4881239330608948}
+  - component: {fileID: 114301627211419248}
+  - component: {fileID: 114724589220290912}
+  - component: {fileID: 114534929629459730}
+  - component: {fileID: 114079502502822270}
+  m_Layer: 0
+  m_Name: TextSpherePrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4881239330608948
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570348880305220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 400, y: 400, z: 400}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114079502502822270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570348880305220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc443016f03d84cf98c35c5b72c8e8bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayRate: 100
+  maxQueueSize: 1000
+  textStart: 0.15
+  textEnd: 0.85
+  displayStyle: 0
+  gapX: 0.1
+--- !u!114 &114301627211419248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570348880305220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec28d15c91b364eaa924b396fd5273b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reverseSurfaceNormals: 1
+  subdivisions: 2
+--- !u!114 &114534929629459730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570348880305220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166201838f52b4aaabeb881392a53c06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  font: {fileID: 12800000, guid: 89dc5ae941ef44953815d4add6d259de, type: 3}
+  fontTexture: {fileID: 2800000, guid: 2f65eed2c9eb44e95ae2ea6a0dc80fbf, type: 3}
+  typeColor: {r: 0, g: 0, b: 0, a: 1}
+  lineSpacing: 1
+  kerning: 1
+--- !u!114 &114724589220290912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570348880305220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618a068b9ff944708838ea2f6e7da190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSize: 2048
+  bgColor: {r: 0, g: 0, b: 0, a: 0}
+  tileCols: 2
+  tileRows: 2
+  wrapHorizontal: 1
+  wrapVerticle: 0
+  meshName: SphereSegment
