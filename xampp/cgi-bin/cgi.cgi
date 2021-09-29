@@ -1,0 +1,5 @@
+#!"\Users\xrezuser\Documents\ioanreorganized_\xampp\perl\bin\perl.exe"
+
+print "Content-Type: text/html\n\n";
+
+print "OK";
